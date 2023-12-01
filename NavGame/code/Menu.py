@@ -15,7 +15,7 @@ class Menu:
         pygame.mixer_music.play(-1)
         while True:
             self.janela.blit(source=self.surf, dest=self.rect)
-            self.menu_text(50, "GameNav", (255, 128, 0), ((JAN_WIDTH / 2), 70))
+            self.menu_text(50, "Nav Game", (255, 128, 0), ((JAN_WIDTH / 2), 70))
             pygame.display.flip()
 
             for event in pygame.event.get():
