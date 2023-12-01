@@ -16,6 +16,7 @@ class Menu:
         while True:
             self.janela.blit(source=self.surf, dest=self.rect)
             self.menu_text(50, "Nav Game", (255, 128, 0), ((JAN_WIDTH / 2), 70))
+            self.menu_text(50, "--------", (255, 128, 0), ((JAN_WIDTH / 2), 120))
             pygame.display.flip()
 
             for event in pygame.event.get():

@@ -12,7 +12,6 @@ class Game:
         self.janela: Surface = pygame.display.set_mode(size=(JAN_WIDTH, JAN_HEIGHT))
 
     def run(self):
-
         while True:
             menu = Menu(self.janela)
             menu.run()
